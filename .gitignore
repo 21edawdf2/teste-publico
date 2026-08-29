@@ -15,3 +15,5 @@ __pycache__/
 *.pyc
 Godot_OpenAI_Assistant.zip
 Godot_OpenAI_Assistant/
+github_setup_log.txt
+.gitignoregit
