@@ -1,0 +1,17 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Godot OpenAI Assistant
+.env
+.godot_ai_venv/
+__pycache__/
+*.bak_openai_assistant
+.env
+.godot/
+.godot_ai_venv/
+.env
+.github_tools/
+*.pyc
+Godot_OpenAI_Assistant.zip
+Godot_OpenAI_Assistant/

@@ -1,0 +1,49 @@
+GODOT OPENAI ASSISTANT - INSTALACAO RAPIDA
+============================================
+
+1) Extraia TODO o conteudo deste ZIP diretamente na pasta do seu projeto Godot.
+   Essa e a pasta onde existe o arquivo project.godot.
+
+2) Execute:
+      INSTALAR_E_LIGAR.bat
+
+3) O instalador:
+   - confere se esta na pasta correta;
+   - procura Python;
+   - oferece instalar Python 3.12 via winget se estiver faltando;
+   - cria um ambiente virtual local;
+   - instala OpenAI + FastAPI;
+   - pede sua OPENAI_API_KEY se estiver faltando;
+   - salva a chave em .env;
+   - adiciona .env ao .gitignore;
+   - habilita o plugin do editor;
+   - liga o servidor local.
+
+4) Se a Godot estava aberta durante a instalacao, feche e abra novamente.
+
+5) Procure o dock/painel "OpenAI Assistant" no lado direito do editor.
+
+6) Nas proximas vezes, use:
+      LIGAR_IA.bat
+
+IMPORTANTE
+---------
+- Nunca envie seu arquivo .env para outras pessoas.
+- A API da OpenAI tem cobranca separada de uma assinatura do ChatGPT.
+- O servidor escuta somente em 127.0.0.1:8765 (seu proprio PC).
+- O painel desta versao conversa e gera instrucoes/codigo, mas NAO altera
+  automaticamente seus arquivos ou cenas. Isso evita apagar trabalho sem querer.
+
+MODELO
+------
+Por padrao:
+OPENAI_MODEL=gpt-5.6-luna
+
+Voce pode abrir .env com o Bloco de Notas e trocar o modelo depois.
+
+SE DER ERRO
+-----------
+- Veja a janela "Godot AI Server".
+- Rode INSTALAR_E_LIGAR.bat novamente.
+- Confira se project.godot esta na mesma pasta dos BATs.
+- Se o painel nao aparecer, feche e reabra o projeto Godot.

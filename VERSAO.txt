@@ -1,0 +1,2 @@
+Godot OpenAI Assistant 1.0.0
+Feito para Godot 4.x

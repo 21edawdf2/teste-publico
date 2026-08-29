@@ -1,0 +1,1 @@
+Godot_OpenAI_Assistant.zip Godot_OpenAI_Assistant/ rm --cached Godot_OpenAI_Assistant.zipgit rm -r --cached Godot_OpenAI_Assistantgit add .gitignoregit status
